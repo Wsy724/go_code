@@ -1,0 +1,156 @@
+/* Company Name: Nanoit
+    Project Name: Digency
+    Author: Nanoit
+    Version: 1.0
+    Created: 2024-10-06
+    Description: This is a Tourventure Responsive HTML template. */
+
+@media only screen and (max-width: 1800px) {
+}
+@media only screen and (max-width: 1600px) {
+}
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+
+  .hero-form {
+    height: 174px;
+    z-index: 9;
+    bottom: 0px;
+    padding-top: 12px;
+    background-color: var(--bg-primary);
+  }
+}
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  header .nav-container {
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    z-index: 9999;
+    background-color: white;
+  }
+
+  header .nav-container .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+  }
+
+  header .nav-container .navbar-nav .nav-link.active {
+    /* border-bottom: 2px solid red; */
+    color: rgb(0, 0, 0);
+  }
+
+  header .nav-container .navbar-light .navbar-brand {
+    color: #000000;
+  }
+  #destination .destination-title-wrap {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 932px) {
+
+  .carousel-inner{
+    margin-top: 44px;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  #our-photos .tab-content .grid {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+  }
+
+  #testimonial title{
+    font-size: 24px !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .hero-form {
+    height: 243px;
+    z-index: 9;
+    bottom: 0px;
+    padding-top: 10px;
+    background-color: var(--bg-primary);
+  }
+  #discount .left-content h2 {
+    font-size: 80px;
+    line-height: 1em;
+    text-align: left;
+    color: #ffffff;
+    margin: 0px 0px 0px 15%;
+  }
+  #discount .left-content p {
+    font-family: Kristi;
+    font-size: 80px;
+    line-height: 1em;
+    font-weight: 400;
+    text-align: left;
+    color: #ffcc05;
+    margin: -43px 0px 0px 0px;
+  }
+  #our-package .discount-title {
+    font-size: 70px;
+    font-weight: 600;
+    color: #304f470e;
+  }
+}
+@media only screen and (max-width: 375px) {
+}
+
+
+@media (max-width: 768px) {
+  .row .col-12 {
+    flex: 0 0 50%; /* Each card takes 50% width */
+    max-width: 50%; /* Ensure cards are side by side */
+  }
+
+  .features-section .row {
+    gap: 20px; /* Add spacing between cards */
+    margin: 0; /* Remove unnecessary margin */
+  }
+
+  .grid {
+    margin-bottom: 15px; /* Add space between rows */
+  }
+
+  .nav-link {
+    font-size: 14px; /* Adjust tab text size for smaller screens */
+    padding: 5px 10px;
+  }
+}
